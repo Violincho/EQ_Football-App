@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|c:\\users\\vfilev\\source\\repos\\footballapi\\models\\footballplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|solutionrelative:models\\footballplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|c:\\users\\vfilev\\source\\repos\\footballapi\\controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|solutionrelative:controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|c:\\users\\vfilev\\source\\repos\\footballapi\\repo\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|solutionrelative:repo\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|c:\\users\\vfilev\\source\\repos\\footballapi\\footballdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|solutionrelative:footballdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|c:\\users\\vfilev\\source\\repos\\footballapi\\handlers\\getallplayershandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|solutionrelative:handlers\\getallplayershandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|c:\\users\\vfilev\\source\\repos\\footballapi\\handlers\\getplayerbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|solutionrelative:handlers\\getplayerbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|c:\\users\\vfilev\\source\\repos\\footballapi\\controllers\\getplayerbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|solutionrelative:controllers\\getplayerbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|c:\\users\\vfilev\\source\\repos\\footballapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|c:\\users\\vfilev\\source\\repos\\footballapi\\controllers\\searchplayersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|solutionrelative:controllers\\searchplayersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|c:\\users\\vfilev\\source\\repos\\footballapi\\handlers\\searchplayershandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|solutionrelative:handlers\\searchplayershandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|c:\\users\\vfilev\\source\\repos\\footballapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|c:\\users\\vfilev\\source\\repos\\footballapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|c:\\users\\vfilev\\source\\repos\\footballapi\\controllers\\getallplayersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2246078-4C03-48D3-A867-E119E6149E21}|FootballAPI.csproj|solutionrelative:controllers\\getallplayersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FootballPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Models\\FootballPlayer.cs",
+              "RelativeDocumentMoniker": "Models\\FootballPlayer.cs",
+              "ToolTip": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Models\\FootballPlayer.cs",
+              "RelativeToolTip": "Models\\FootballPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T15:39:42.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-31T15:22:48.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetPlayerByIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Handlers\\GetPlayerByIdHandler.cs",
+              "RelativeDocumentMoniker": "Handlers\\GetPlayerByIdHandler.cs",
+              "ToolTip": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Handlers\\GetPlayerByIdHandler.cs",
+              "RelativeToolTip": "Handlers\\GetPlayerByIdHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T15:01:39.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetPlayerByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Controllers\\GetPlayerByIdQuery.cs",
+              "RelativeDocumentMoniker": "Controllers\\GetPlayerByIdQuery.cs",
+              "ToolTip": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Controllers\\GetPlayerByIdQuery.cs",
+              "RelativeToolTip": "Controllers\\GetPlayerByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T14:59:49.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SearchPlayersHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Handlers\\SearchPlayersHandler.cs",
+              "RelativeDocumentMoniker": "Handlers\\SearchPlayersHandler.cs",
+              "ToolTip": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Handlers\\SearchPlayersHandler.cs",
+              "RelativeToolTip": "Handlers\\SearchPlayersHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T14:57:36.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SearchPlayersQuery.cs",
+              "DocumentMoniker": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Controllers\\SearchPlayersQuery.cs",
+              "RelativeDocumentMoniker": "Controllers\\SearchPlayersQuery.cs",
+              "ToolTip": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Controllers\\SearchPlayersQuery.cs",
+              "RelativeToolTip": "Controllers\\SearchPlayersQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T14:54:59.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllPlayersHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Handlers\\GetAllPlayersHandler.cs",
+              "RelativeDocumentMoniker": "Handlers\\GetAllPlayersHandler.cs",
+              "ToolTip": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Handlers\\GetAllPlayersHandler.cs",
+              "RelativeToolTip": "Handlers\\GetAllPlayersHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T13:22:21.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetAllPlayersQuery.cs",
+              "DocumentMoniker": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Controllers\\GetAllPlayersQuery.cs",
+              "RelativeDocumentMoniker": "Controllers\\GetAllPlayersQuery.cs",
+              "ToolTip": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Controllers\\GetAllPlayersQuery.cs",
+              "RelativeToolTip": "Controllers\\GetAllPlayersQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T13:07:08.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-31T00:02:06.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FootballDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\FootballDbContext.cs",
+              "RelativeDocumentMoniker": "FootballDbContext.cs",
+              "ToolTip": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\FootballDbContext.cs",
+              "RelativeToolTip": "FootballDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T23:59:56.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Repo\\PlayerRepository.cs",
+              "RelativeDocumentMoniker": "Repo\\PlayerRepository.cs",
+              "ToolTip": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Repo\\PlayerRepository.cs",
+              "RelativeToolTip": "Repo\\PlayerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T23:27:24.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayersController.cs",
+              "DocumentMoniker": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Controllers\\PlayersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlayersController.cs",
+              "ToolTip": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Controllers\\PlayersController.cs",
+              "RelativeToolTip": "Controllers\\PlayersController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T14:38:56.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T14:27:17.908Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
