@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Container, Grid, Card, CardActionArea, CardContent, Typography, Dialog, DialogTitle, IconButton } from '@mui/material';
+import { Container, Grid, Card, CardActionArea, CardContent, Typography} from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import { SearchBar } from '../components/SearchBar';
 import { PlayerDetails } from '../components/PlayerDetails';
@@ -38,26 +38,7 @@ export default function PlayersGridPage() {
       </Grid>
       
        {/* todo: pass this to a separate comp. ;  */}
-      <Dialog //popup
-        open={!!selectedId}
-        onClose={() => setSelectedId(null)}
-        maxWidth="sm"
-        fullWidth
-        keepMounted
-      >
-        <DialogTitle>
-          Player Details
-          <IconButton
-            aria-label="close"
-            onClick={() => setSelectedId(null)}
-            sx={{ position: 'absolute', right: 8, top: 8 }}
-          >
-            <CloseIcon />
-          </IconButton>
-        </DialogTitle>
-
-        {selectedId && <PlayerDetails playerId={selectedId} />}
-      </Dialog>
+        {/* dialog here */}
     </Container>
     
   );
