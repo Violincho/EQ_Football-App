@@ -7,7 +7,6 @@ export const usePlayers = (searchTerm) => {
     useEffect(() => {
         const fetchPlayers = async () => {
             try {
-                 console.log("Fetching players...");
                 const response = searchTerm
                 ? await api.get(`/Players/search?q=${searchTerm}`)
                 : await api.get("/Players");
@@ -18,6 +17,7 @@ export const usePlayers = (searchTerm) => {
         }
     };
     fetchPlayers();
+    return
 }, [searchTerm]);
 
     return players; 

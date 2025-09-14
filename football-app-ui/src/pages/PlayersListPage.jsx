@@ -20,6 +20,7 @@ export default function PlayersListPage() {
         </Grid>
       </Grid>
 
+ {/* todo: pass this to a separate comp. ;  */}
       <Dialog
         open={!!selectedId}
         onClose={() => setSelectedId(null)}

@@ -4683,11 +4683,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\FootballAPI.csproj",
+      "projectUniqueName": "C:\\Users\\vfilev\\football-app\\FootballAPI\\FootballAPI.csproj",
       "projectName": "FootballAPI",
-      "projectPath": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\FootballAPI.csproj",
+      "projectPath": "C:\\Users\\vfilev\\football-app\\FootballAPI\\FootballAPI.csproj",
       "packagesPath": "C:\\Users\\vfilev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vfilev\\source\\repos\\FootballAPI\\obj\\",
+      "outputPath": "C:\\Users\\vfilev\\football-app\\FootballAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

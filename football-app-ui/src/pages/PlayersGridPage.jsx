@@ -15,14 +15,15 @@ export default function PlayersGridPage() {
       <SearchBar onSearch={setSearchTerm} />
 
       <Grid container spacing={2} sx={{ mt: 1 }}>
-        {players.length === 0 && (
+        {players.length  && (
           <Grid item xs={12}>
             <Typography>No players found.</Typography>
           </Grid>
         )}
 
+        {/* todo: pass this to a separate comp. ;  */}
         {players.map((p) => (
-          <Grid item key={p.id} xs={12} sm={6} md={4}>
+          <Grid item key={p.id} xs={12} sm={6} md={4}> 
             <Card elevation={3}>
               <CardActionArea onClick={() => setSelectedId(p.id)}>
                 <CardContent>
@@ -35,7 +36,8 @@ export default function PlayersGridPage() {
           </Grid>
         ))}
       </Grid>
-
+      
+       {/* todo: pass this to a separate comp. ;  */}
       <Dialog //popup
         open={!!selectedId}
         onClose={() => setSelectedId(null)}
@@ -57,5 +59,6 @@ export default function PlayersGridPage() {
         {selectedId && <PlayerDetails playerId={selectedId} />}
       </Dialog>
     </Container>
+    
   );
 }
