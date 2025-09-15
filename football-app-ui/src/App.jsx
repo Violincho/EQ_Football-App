@@ -21,8 +21,8 @@ export default function App() {
         <Route path="/grid" element={<PlayersGridPage />} />
       </Routes>
     </BrowserRouter>
-  //Todo: the dialog component tht I will make, make this dialog only in one place if possible
-    //Make a separate file for styles.
-    //creade some conditional styling using sx. based on some condition
+  //Todo: the dialog component tht I will make, make this dialog only in one place if possible - done
+    //Make a separate file for styles. - partially done
+    //create some conditional styling using sx. based on some condition
   );
 }

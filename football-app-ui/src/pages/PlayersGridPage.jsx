@@ -1,21 +1,23 @@
 import { useEffect, useState } from 'react';
 import { Container, Grid, Card, CardActionArea, CardContent, Typography} from '@mui/material';
-import CloseIcon from '@mui/icons-material/Close';
 import { SearchBar } from '../components/SearchBar';
-import { PlayerDetails } from '../components/PlayerDetails';
 import { usePlayers } from '../hooks/usePlayers';
+import { PlayerDetailsDialog } from '../components/PlayerDetailsDialog';
 
 export default function PlayersGridPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedId, setSelectedId] = useState(null);
   const players = usePlayers(searchTerm);
 
+  const open = !!selectedId;
+  const handleClose = () => setSelectedId(null);
+
   return (
     <Container sx={{ mt: 4 }}>
       <SearchBar onSearch={setSearchTerm} />
 
       <Grid container spacing={2} sx={{ mt: 1 }}>
-        {players.length  && (
+        {players.length === 0  && (
           <Grid item xs={12}>
             <Typography>No players found.</Typography>
           </Grid>
@@ -37,8 +39,12 @@ export default function PlayersGridPage() {
         ))}
       </Grid>
       
-       {/* todo: pass this to a separate comp. ;  */}
         {/* dialog here */}
+        <PlayerDetailsDialog
+        open={open}
+        onClose={handleClose}
+        playerId={selectedId}
+        />
     </Container>
     
   );

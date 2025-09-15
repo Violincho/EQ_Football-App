@@ -1,15 +1,17 @@
 import { useState } from 'react';
-import { Container, Grid, Dialog, DialogTitle, IconButton } from '@mui/material';
-import CloseIcon from '@mui/icons-material/Close';
+import { Container, Grid} from '@mui/material';
 import { SearchBar } from '../components/SearchBar';
 import { PlayerList } from '../components/PlayerList';
-import { PlayerDetails } from '../components/PlayerDetails';
+import { PlayerDetailsDialog } from '../components/PlayerDetailsDialog';
 import { usePlayers } from '../hooks/usePlayers';
 
 export default function PlayersListPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedId, setSelectedId] = useState(null);
   const players = usePlayers(searchTerm);
+
+ const open = Boolean(selectedId);
+ const handleClose = () => setSelectedId(null);
 
   return (
     <Container sx={{ mt: 4 }}>
@@ -20,27 +22,12 @@ export default function PlayersListPage() {
         </Grid>
       </Grid>
 
- {/* todo: pass this to a separate comp. ;  */}
-      <Dialog
-        open={!!selectedId}
-        onClose={() => setSelectedId(null)}
-        maxWidth="sm"
-        fullWidth
-        keepMounted
-      >
-        <DialogTitle>
-          Player Details
-          <IconButton
-            aria-label="close"
-            onClick={() => setSelectedId(null)}
-            sx={{ position: 'absolute', right: 8, top: 8 }}
-          >
-            <CloseIcon />
-          </IconButton>
-        </DialogTitle>
-
-        {selectedId && <PlayerDetails playerId={selectedId} />}
-      </Dialog>
+ {/* dialog here  */}
+      <PlayerDetailsDialog
+              open={open}
+              onClose={handleClose}
+              playerId={selectedId}
+              />
     </Container>
   );
 }
